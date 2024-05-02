@@ -1,0 +1,54 @@
+
+
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Mobile Website</title>
+    <!--insert CDN links from jQuery Mobile official website-->
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+    <!----page creation and head section-->
+  <div data-role="page">
+    <div data-page="header" data-theme="b">
+                  <center><h1> Arts</h1></center>
+    </div>
+    <!--insert the navbar code from Jquery Mobile site , Demo section -->
+    <div data-role="navbar" data-grid="c">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about_us.html">About Us</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="login_register.html" class="ui-btn-active">Login/Register</a></li>
+        </ul>
+    </div class="content">
+    <div> <center> <h2>Registration</h2></center></div>
+<div data-role="content">
+    <label> Full Name:</label>
+    <input type="text"> <br>
+    
+    <label> Address:</label>
+    <textarea cols="25" rows="7"></textarea><br>
+
+    <label> Pincode:</label>
+    <input type="text"> <br>
+
+    <label> email:</label>
+    <input type="Email"> <br>
+
+    <label> password:</label>
+    <input type="Password"> <br>
+    <input type="submit" value="Register"><br>
+    <center><a href="login.html">Already registered?Login</a></center>
+</div>
+    </div><!---content close-->
+    <!---footer-->
+</div>
+    </body>
+    </html>
